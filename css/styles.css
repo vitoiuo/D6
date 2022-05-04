@@ -1,0 +1,72 @@
+body {
+  font-size: 14px;
+  font-family: "Red Hat Display", sans-serif;
+  color: gray;
+  background-color: hsl(225, 100%, 94%);
+  box-sizing: border-box;
+}
+
+main {
+  margin: 20rem auto;
+  height: auto;
+  background-color: #fff;
+  width: 25rem;
+  border-radius: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.top-img {
+  width: 100%;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+.text {
+  text-align: center;
+  margin: 0rem 20%;
+}
+h1 {
+  margin-top: 2rem;
+  font-size: 24px;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 1rem;
+}
+.offer {
+  height: 4rem;
+  background-color: hsl(225, 100%, 98%);
+  margin: 2rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.icon {
+  background-color: hsl(0, 0%, 0%);
+  width: 3rem;
+  height: auto;
+}
+.music-icon {
+  float: left;
+  width: 3rem;
+  margin: 0.5rem;
+}
+.plan {
+  float: left;
+  font-size: 14px;
+}
+span {
+  color: black;
+}
+.change {
+  display: inline-block;
+  margin: 0.5rem;
+}
+.payment {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-weight: bold;
+  padding: 1rem 6rem;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 1rem;
+  box-shadow: 0 5px 20px 0px hsl(245, 75%, 52%, 0.2);
+}
+.change {
+  float: right;
+}
