@@ -70,6 +70,9 @@ span {
 .btn-payment:active {
   opacity: 0.5;
 }
+.btn-payment:hover {
+  cursor: pointer;
+}
 .change a:active {
   color: hsl(245, 75%, 52%);
   text-decoration: none;
